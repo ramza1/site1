@@ -7,7 +7,7 @@
     <list default="true" id="4c7dda5b-5756-4b7d-911f-4d100f088886" name="Default" comment="" />
     <ignored path="site2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="4c7dda5b-5756-4b7d-911f-4d100f088886" time="1373525300150" ignored="false" />
+    <file path="/Gemfile" changelist="4c7dda5b-5756-4b7d-911f-4d100f088886" time="1373529331893" ignored="false" />
     <file path="/postgresql.rb" changelist="4c7dda5b-5756-4b7d-911f-4d100f088886" time="1373510119627" ignored="false" />
     <file path="/deploy.rb" changelist="4c7dda5b-5756-4b7d-911f-4d100f088886" time="1373510154551" ignored="false" />
     <file path="/unicorn.rb" changelist="4c7dda5b-5756-4b7d-911f-4d100f088886" time="1373510198786" ignored="false" />
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.79695433">
+            <state line="58" column="77" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="99" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.27918783">
               <folding />
             </state>
           </provider>
@@ -149,9 +149,9 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/mailers/message_mailer.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -798,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="99" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/message_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
@@ -814,7 +807,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.79695433">
+        <state line="58" column="77" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.27918783">
           <folding />
         </state>
       </provider>
