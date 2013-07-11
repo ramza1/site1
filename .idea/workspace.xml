@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="45" selection-start="316" selection-end="316" vertical-scroll-proportion="0.23809524">
+            <state line="9" column="45" selection-start="316" selection-end="316" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="message.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/message.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="12" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.30456853">
               <folding />
             </state>
           </provider>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/config/recipes/templates/nginx_unicorn.erb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/message.rb" />
       </list>
     </option>
   </component>
@@ -792,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="3" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
@@ -815,7 +808,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="316" selection-end="316" vertical-scroll-proportion="0.23809524">
+        <state line="9" column="45" selection-start="316" selection-end="316" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.30456853">
           <folding />
         </state>
       </provider>
