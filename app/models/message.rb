@@ -1,5 +1,8 @@
 class Message
   include ActiveAttr::Model
+  include ActiveModel::Validations
+  include ActiveModel::Conversion
+  extend ActiveModel::Naming
 
   attribute :name
   attribute :email
