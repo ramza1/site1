@@ -65,16 +65,17 @@ Site2::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  config.active_support.deprecation = :notify
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      :address  => "localhost",
-      :port  => 25,
-      :domain  => "kokobase.com",
-      :user_name  => "support@hallandjohnsonllp.com",
-      :password  => "rzaartz0381",
-      :authentication  => :login,
-      :enable_starttls_auto => false
-  }
-  config.action_mailer.default_url_options = { :host => 'hallandjohnsonllp.com'}
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => 'hallandjohnsonllp.com',
+      :user_name            => 'ramzauchenna@gmail.com',
+      :password             => 'okaforuchenna11',
+      :authentication       => 'plain',
+      :enable_starttls_auto => true  }
+  ignore_exceptions = ExceptionNotifier.default_ignore_exceptions + [ActionView::MissingTemplate]
+  config.middleware.use ExceptionNotifier, :email_prefix => "[ERROR] ", :sender_address => 'noreply@hall.com', :exception_recipients => "ramzauchenna@gmail.com", :ignore_exceptions => ignore_exceptions
+
+  config.action_mailer.default_url_options = { :host => "hallandjohnsonllp.com" }
 end

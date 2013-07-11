@@ -11,6 +11,6 @@ class MessageMailer < ActionMailer::Base
     @name = message.name
     @phone_number = message.phone_number
 
-    mail to: "support@hallandjohnsonllp.com", :subject => "new mail from #{message.name} - hall and johnson", :from => message.email
+    mail to: "dimokz@yahoo.com", :subject => "new mail from #{message.name} - hall and johnson", :from => message.email
   end
 end
