@@ -19,7 +19,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "ssh://sls@slsapp.com:1234/rzaartz/rzaartz.git"
+set :repository, "git@github.com:ramza1/site1.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
