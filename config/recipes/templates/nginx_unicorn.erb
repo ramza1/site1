@@ -3,7 +3,7 @@ upstream unicorn {
 }
 
 server {
-  listen 3000;
+  listen 80 default deferred;
   server_name hallandjohnsonllp.com *.hallandjohnsonllp.com;
   root <%= current_path %>/public;
 

@@ -1,4 +1,3 @@
-set :whenever_command, "bundle exec whenever"
 require "bundler/capistrano"
 
 
@@ -10,7 +9,7 @@ load "config/recipes/nodejs"
 #load "config/recipes/rbenv"
 load "config/recipes/check"
 
-server "198.211.99.163", :web, :app, :db, primary: true
+server "192.241.142.72", :web, :app, :db, primary: true
 
 set :user, "deployer"
 set :application, "site2"
