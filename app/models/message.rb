@@ -1,14 +1,7 @@
 class Message
-  include ActiveAttr::Model
   include ActiveModel::Validations
   include ActiveModel::Conversion
   extend ActiveModel::Naming
-
-  attribute :name
-  attribute :email
-  attribute :content
-  attribute :priority # type: Integer, default: 0
-  attribute :phone_number
 
   attr_accessible :name, :email, :content, :phone_number
 
