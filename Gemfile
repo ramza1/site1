@@ -23,7 +23,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'exception_notification'
 #gem 'active_attr'
 gem 'capistrano'
 gem 'unicorn'
