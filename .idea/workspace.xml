@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="104" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0">
+            <state line="77" column="104" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.7404844">
               <folding />
             </state>
           </provider>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_mailer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/message_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32994923">
+            <state line="13" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -798,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="104" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="99" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
@@ -814,7 +807,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/message_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32994923">
+        <state line="13" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="104" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.7404844">
           <folding />
         </state>
       </provider>
