@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-  gem 'pg'
+  gem 'mysql2'
 
 
 
@@ -23,10 +23,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'exception_notification'
 #gem 'active_attr'
 gem 'capistrano'
 gem 'unicorn'
-gem 'exception_notification'
+
 
 
 
