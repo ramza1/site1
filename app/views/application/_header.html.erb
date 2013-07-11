@@ -1,0 +1,15 @@
+<div id="header-banner">
+  <div id="logo"><a href="<%= url_for root_url %>"><img src="/assets/hall.png" alt="Advocates LLP Lawyers" width="215" height="53" border="0"></a></div>
+  <div id="tag"><img src="/assets/tag-line.gif" alt="Chosen for experience. Powered by technology." width="381" height="20"></div>
+</div>
+<div id="header-menu">
+  <table border="0" cellpadding="0" cellspacing="0" width="760">
+    <tr>
+      <td style="text-align: left;"><%= link_to "Home", root_url %></td>
+      <td style="text-align: right;"><%= link_to "Areas of Practice", areas_of_practice_path %></td>
+      <td style="text-align: right;"><%= link_to "Clients and Cases", clients_path %></td>
+      <td style="text-align: right;"><%= link_to "About Hall & Johnson", about_us_path %></td>
+      <td style="text-align: right;"><%= link_to "Contact Us", contact_us_url %></td>
+    </tr>
+  </table>
+</div>

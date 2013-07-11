@@ -1,0 +1,22 @@
+<div class="main-body">
+  <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, id: "flash_#{name}" %>
+  <% end %>
+  <div class="left-side">
+<div style="font-size: 12px; color: #444;">
+<p>
+  Hall & Johnson LLP is a growing firm of litigation lawyers chosen for our years of experience and knowledge in our specific areas of practise.</p>
+
+  <p>We provide effective strategies for the resolution of complex disputes</p>
+
+  <p>our integrated computer technologymakes us unique, eliminating layers of staff and allowing us to deliver results and efficiently
+</p>
+  <p><%= link_to "Learn more about Hall & Johnson LLP", about_us_url, :class => "mn" %></p>
+</div>
+  </div>
+  <div class="right-side">
+    <%= image_tag "sam.png" %>
+  </div>
+  <div class="clear"></div>
+</div>
+

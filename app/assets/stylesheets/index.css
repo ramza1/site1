@@ -1,0 +1,313 @@
+body,html {
+	padding:0px;
+	margin:0px;
+	font-size: 90%;
+	background-color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image:url(bg.jpg);
+	background-repeat:repeat-x;
+}
+
+div#footer
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+
+div#header-banner
+{
+	position:relative;
+	width:760px;
+	height:80px;
+}
+
+div#logo
+{
+	position:absolute;
+	top:12px;
+	left:8px;
+}
+
+div#tag
+{
+	position:absolute;
+	top:34px;
+	right:8px;
+}
+
+div#header-menu
+{
+	width:760px;
+}
+
+div#body
+{
+	width:760px;
+}
+
+div#menu
+{
+	width:210px;
+	float:right;
+	padding:0px;
+	margin:0px;
+	background-color:#FFFFFF;
+
+}
+
+div#menu TABLE
+{
+	margin:0px 10px 10px 10px;
+	border:1px solid #F0ECE3;
+	background-color:#FFFFFF;
+}
+
+div#menu TABLE TD
+{
+	color:#333333;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#F0ECE3;
+	
+}
+
+div#menu TABLE TD.selected
+{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#69746C;
+	
+}
+
+div#menu TABLE TD.subselected
+{
+	color:#333333;
+	font-weight:normal;
+	font-size:85%;
+	background-color:#FFFFFF;
+	border-bottom:1px solid #F0ECE3;
+	
+}
+
+div#menu a
+{
+	color:#333333;
+	text-decoration:none;
+
+}
+
+div#menu a:hover
+{
+	color:#990000;
+	text-decoration:underline;
+}
+
+div#body TD.main
+{
+	padding:20px 0px 0px 10px;
+	background-image:url(bg-body.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+h1
+{
+	font-family:Tahoma, Verdana;
+	font-weight:normal;
+	font-size: 30px;
+	padding:0px;
+	margin:0px 0px 20px 0px;
+	width:500px;
+	font-weight:normal;
+}
+h2.lawyer
+{
+	font-family:Tahoma, Verdana;
+	font-size:18px;
+	width:300px;
+	padding:0px;
+	margin:0px;
+}
+
+h2
+{
+	font-family:Tahoma, Verdana;
+	font-size:18px;
+	width:400px;
+	padding:0px;
+	margin:0px;
+}
+
+
+h3
+{
+	font-family:Tahoma, Verdana;
+	font-size:24px;
+	width:100%;
+	padding:0px;
+	margin:0px
+}
+
+h3.quote
+{
+	font-family:Tahoma, Verdana;
+	font-size:18px;
+	padding:0px;
+	margin:0px auto;
+	width:80%;
+	height:100px;
+}
+
+p
+{
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	line-height:1.5em;
+}
+
+a
+{
+	text-decoration:underline;
+	color: #990000;
+	
+}
+
+a.nice
+{
+	text-decoration:none;
+	color: #333333;
+	font-weight:bold;
+	font-size:85%;
+}
+
+a.nice:hover
+{
+	text-decoration:underline;
+	color: #990000;
+	
+}
+
+a:hover
+{
+	text-decoration:underline;
+	color: #69746C;
+}
+
+ul
+{
+	list-style-type:none;
+	list-style-image:url(red-dot.gif);
+	list-style-position:outside;
+	margin:0px 0px 20px 20px;
+	padding:0px;
+}
+
+li.heading
+{
+	margin-left:-15px;
+	padding:5px 0px 0px 0px;
+	list-style-image:none;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+div#lawyer
+{
+	width:210px;
+	float:right;
+	padding:0px;
+	margin:0px;
+	background-color:#F0ECE3;
+}
+
+div#lawyer TABLE
+{
+	margin:0px 0px 0px 0px;
+	border:1px solid #F0ECE3;
+	background-color:#FFFFFF;
+}
+
+div#lawyer TABLE TD
+{
+	color:#333333;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#F0ECE3;
+	
+}
+
+div#lawyer TABLE TD.selected
+{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#69746C;
+	
+}
+
+div#lawyermenu
+{
+	padding:0px;
+	margin:0px;
+}
+
+div#lawyermenu TABLE
+{
+	margin:10px 0px 10px 0px;
+	border:1px solid #F0ECE3;
+	background-color:#FFFFFF;
+}
+
+div#lawyermenu TABLE TD
+{
+	color:#333333;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#F0ECE3;
+	
+}
+
+div#lawyermenu TABLE TD.selected
+{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:85%;
+	background-color:#69746C;
+	
+}
+
+div#lawyermenu a
+{
+	color:#333333;
+	text-decoration:none;
+
+}
+
+div#lawyermenu a:hover
+{
+	color:#990000;
+	text-decoration:underline;
+}
+
+TABLE.viewprofile
+{
+	background-color:#69746C;
+	color:white;
+	font-size:85%;
+	height:22px;
+	font-weight:bold;
+}
+
+TABLE.viewprofile a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+TABLE.viewprofile a:hover
+{
+	text-decoration:none;
+	color:#990000;
+}

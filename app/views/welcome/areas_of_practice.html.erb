@@ -1,0 +1,43 @@
+<div class="main-body">
+  <h1>Areas of Practice</h1>
+  <div id="menu">
+    <ul class="about-menu">
+      <li>
+        <%= link_to_unless_current "Banking Insolvency Litigation", banking_path %>
+      </li>
+      <li>
+        <%= link_to_unless_current "Commercial Corporate Litigation", construction_second_path %>
+      </li>
+      <li>
+        <%= link_to_unless_current "Construction Litigation", construction_second_path %>
+      </li>
+      <!--
+      <tr>
+        <td><a href="latest-news.htm">Latest News</a></td>
+      </tr>
+      -->
+      <li>
+        <%= link_to_unless_current "Employment Litigation", employment_second_path %>
+      </li>
+      <li >
+        <%= link_to_unless_current "Environmental Litigation", environmental_second_path %>
+      </li>
+      <li>
+        <%= link_to_unless_current "Estate Litigation", estate_second_path %>
+      </li>
+      <li>
+        <%= link_to_unless_current "Tax Litigation", tax_second_path %>
+      </li>
+      <li>
+        <%= link_to_unless_current "Professional Negligence Litigation", professional_second_path %>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <P>Hall & Johnson believes that no law firm can be all things to all people and, from its inception, chose to restrict its practice to litigation and dispute resolution in the areas of <a href="<%= url_for banking_path %>">banking &amp; insolvency litigation</a>, <a href="<%= url_for commercial_second_path %>">commercial &amp; corporate litigation</a>, <a href="<%= url_for construction_second_path %>">construction litigation</a>, <a href="<%= url_for environmental_second_path %>">environmental litigation</a>, <a href="<%= url_for employment_second_path %>">employment litigation</a>, <a href="<%= url_for estate_second_path %>">estate litigation</a>, <a href="<%= url_for tax_second_path %>">tax litigation</a> and <a href="<%= url_for professional_second_path %>">professional negligence litigation</a>. These are complex areas of the law where clients are best served by experienced lawyers.</P>
+    <P>Hall & Johnson, although a small firm in total numbers, is a large firm within its restricted areas of practice. The firm can confidently state that it has the resources to handle any type or size of litigation and offers an alternative to those clients who think that they must pursue large and complex commercial, corporate and environmental litigation cases at great cost only at Canada's largest law firms.</P>
+    <P>To learn more about a specific area of practice, <strong>please select from the menu to the right.</strong></P>
+
+  </div>
+</div>
+

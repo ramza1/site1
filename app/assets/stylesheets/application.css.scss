@@ -1,0 +1,104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require index
+ *= require screen
+ *= require_self
+
+ */
+
+
+.main-body{
+    padding: 20px 0px 0px 10px;
+    background-image: url(bg-body.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+  text-align: left;
+}
+
+.left-side{
+    width: 47%;
+    float: left;
+    text-align: left;
+}
+
+.right-side{
+    float: left;
+    width: 53%;
+  text-align: right;
+}
+
+.clear{
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#header-menu {
+  a{
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+  }
+}
+
+.about-menu{
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #F0ECE3;
+  background-color: white;
+  list-style: none;
+  li{
+    color: #333;
+    font-weight: bold;
+    font-size: 85%;
+    background-color: #F0ECE3;
+    margin: 1px;
+    padding: 4px;
+  }
+  .selected{
+    color: white;
+    font-weight: bold;
+    font-size: 85%;
+    background-color: #69746C;
+  }
+}
+
+#header-menu td{
+  padding-top: 3px;
+  a{
+    color: #69746C;
+    font-style: 11px;
+    &:hover{
+      color: #9c9c9c;
+    }
+  }
+}
+
+.mn{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer{
+  border-top:3px #333 solid;
+  width: 760px;
+  margin-bottom: 30px;
+}
+
+.sm{
+  list-style: none;
+  text-align: left;
+  margin-left: 0;
+  li{
+    display: inline;
+    margin-right: 5px;
+  }
+}
