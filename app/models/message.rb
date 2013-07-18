@@ -11,6 +11,12 @@ class Message
   validates_length_of :content, :maximum => 500
   validates_presence_of :phone_number
 
+  def initialize(attributes = {})
+    attributes.each do |name, value|
+      send("#{name}=", value)
+    end
+  end
+
   def persisted?
     false
   end
