@@ -70,8 +70,8 @@ Site2::Application.configure do
       :address              => "smtp.gmail.com",
       :port                 => 587,
       :domain               => 'hallandjohnsonllp.com',
-      :user_name            => 'ramzauchenna@gmail.com',
-      :password             => 'okaforuchenna11',
+      :user_name            => 'xxx',
+      :password             => 'xxx',
       :authentication       => 'plain',
       :enable_starttls_auto => true  }
 
