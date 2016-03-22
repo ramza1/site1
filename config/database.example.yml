@@ -2,8 +2,8 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: site2
+  database: xxx
   pool: 5
   host: localhost
-  username: site2
-  password: site2
+  username: xxx
+  password: xxx
